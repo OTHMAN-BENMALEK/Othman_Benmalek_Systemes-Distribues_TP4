@@ -114,14 +114,144 @@ lorsqu'on click sur l'edit d'un produit , on se retrouve dans le formulaire de m
 
 ### Part 3
 
+Ajout du component dashboard :
+
+![4-1)Ajout du dashboard](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/c2a2d453-8c44-43fb-a1e2-32f8a8a8ba79)
+
+Résultat :
+
+![4-2)Résultat](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/47843b6a-25bc-432d-b200-4749266006b8)
+
+L'ajout de app-errors pour gérer les erreurs . Dans ce test ,nous avons arrété le json-server pour qu'on puisse voir l'erreur :
+
+![5)Ajouter app-errors , et arreter json server et voir le resultat](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/aa7acd46-d40f-4598-9eee-be04f6b8f1dc)
+
+Rendre la connexion un peu lent pour voir le spinner de chargement des produits : 
+
+![6)slow connection so we can see the spinned](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/a1967435-5b10-4bbc-819f-7306331297f1)
 
 
 ### Part 4
+
+Ajout du component login:
+
+![1)Ajout du component login ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/5fc90d6f-29d2-433c-968f-af57b82116f9)
+
+
+Ajout de auth service pour gérer le login avec l'utilisation de btoa pour encoder le mot de pass et atob pour décoder le mot de passe :
+
+![1-1)Ajout de auth service pour gérer le login](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/e096d50b-c10a-4cea-8d25-d7cdb2f6a51a)
+
+Essai de s'authentifier avec des  mauvais credentiels:
+
+![1-2)Essai de s'authentifier avec des  mauvais credentiels ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/648ef673-1524-45fa-9927-57f1c26acaeb)
+
+Ajoutons les guards , et essayons quand un user essaie de ajouter un nouveau produit:
+
+![2)Ajoutons les guards , et essayons quand un user essaie de ajouter un nouveau produit](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/2b7cbad7-c069-4011-9f4a-d6c1cb623a3f)
+
+Derniere vue d'admin:
+
+![3-1)Derniere vue d'admin](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/7b40b0e0-9461-41a2-8a01-49fafad775ab)
+
+Dernière vue du user1:
+
+![3-2)Dernière vue du user1](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/51feb5f9-0e91-4845-a616-bdd0cfade506)
+
 
 
 ## Troisième Partie : Spring Angular
 ### Back-end
 
+Créer un projet avec la structure suivante et les étudiants et payments:
+
+![1)Créer un projet avec la structure suivante et les étudiants et payments](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/b5431078-ea82-44a1-8f9e-d395996d0727)
+
+Test des Urls:
+
+![2-1)Test des Url ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/ee0d8b5f-b70a-4d86-818f-14b6992e7cd7)
+
+Par code d'étudiant :
+
+![2-2)By students code](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/fc35bd1e-96b9-42d2-bd75-5cdee1c91ab3)
+
+Les payments :
+
+![2-3)Payments](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/7975b504-5358-480a-93bc-68278f172e1c)
+
+Ajout du dependance openapi de spring , donne le résultat suivant:
+
+![3)Ajout du dependance openapi de spring , donne le résultat suivant ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/832d1904-0944-4ebd-b338-2e7449c3977b)
+
+Changer le status d'un student avec Put:
+
+![3-1)Changer le status d'un student avec Put](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/072f3a79-7682-4b96-8467-080c581e1b4f)
+
+Enregistrer un nouveau payement et un pdf :
+
+![3-2)Save New Payment + pdf file ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/b4e78c4c-b680-46b0-bdb0-b3fee57d8ea3)
+
+Le fichier pdf est stocké :
+
+![3-3)Le fichier pdf est stocké](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/554b010b-d6e8-4029-966c-19c64a6f99e8)
+
+Visualisation du fichier pdf en utilisant paymentFile:
+
+![3-4)Visualiser le fichier en utilisant paymentFile](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/8bf4b43d-5b3f-4732-93f0-035e691ead69)
+
+h2 db students:
+
+![4)h2 db students](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/f22b9199-75ff-4b39-a644-2d29ec2770ef)
+
+payments db:
+
+![4-1)payments db ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/5f1ab8c5-accb-4d94-9b1c-8733c7d2326d)
 
 
 ### Front-end
+
+Ajout du projet angular dans notre projet et l'ajout d'angular material :
+
+![0)Ajouter le projet angular dans notre projet et ajouter angular,material ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/5414cd11-3a0f-416a-92e9-cc7d4075f388)
+
+Nouvelle interface en utilisant angular et angular material :
+
+![1)New interface using angular and angular material](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/210cafc2-c963-4f5a-9075-e639616b18cc)
+
+Création du component Login pour effectuer l'authentification :
+
+![2-1)Login](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/56d671a8-fafe-4582-bfdc-f0a91a602493)
+
+Interface d'authentification :
+
+![2-2)Interface](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/ad028d0f-e50d-4934-aa5b-3b23105ecdda)
+
+Authentification de l'admin :
+
+![2-3)Admin auth](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/4301caf3-8236-416d-b198-c1d542d21ec7)
+
+Authentification de User1
+
+![2-4)User1](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/0b990e79-591f-430c-ab82-be06cc649110)
+
+Nouvelle vue de l'user1 (ne pas afficher le menu import ) :
+
+![2-5)Nouvelle vue de l'user1 (ne pas afficher le menu import )](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/b1ccb997-25ca-4f8b-92ef-5ce4e10ec1b8)
+
+Récupération des payments à partir du back-end :
+
+![3)Récupérer les payments à partir du back-end](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/921ab505-cf28-49b2-a00a-a22974c5ce07)
+
+Affichage dans payments.component.html en utilisant angular material
+
+![3-1)Les afficher dans html en utilisant angular material](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/30eee818-8f31-4966-aad4-1984bd30718d)
+
+Résultat :
+
+![3-2)Résultat](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/fba57559-cbc1-4672-bf16-424cfa6ed0a0)
+
+Interface finale après MatPaginator et MatSort :
+
+![4)Interface finale après MatPaginator et MatSort ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribues_TP4/assets/159661363/21ed62d8-318e-4d36-af53-cf2b5a140b6c)
+
+
